@@ -1,8 +1,7 @@
-import { useState, ChangeEvent, FormEvent, Dispatch, useEffect } from "react"
+import { useState, ChangeEvent, FormEvent, useEffect } from "react"
 import { v4 as uuidv4 } from 'uuid'
 import { categories } from "../data/categories"
 import type { Activity } from "../types"
-import { ActivityActions, ActivityState } from "../reducers/activity-reducer"
 import { useActivity } from "../hooks/useActivity"
 
 
